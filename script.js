@@ -20,7 +20,9 @@ const convertToRoman = (input) => {
   return result;
 };
 
-const checkUserInput = () => {
+const checkUserInput = (e) => {
+  e.preventDefault;
+  
   const inputInt = parseInt(numberInput.value);
   const setAlertClass = () => output.classList.add('alert');
 
